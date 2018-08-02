@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "My Stuff"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Peter Larson"
+description              : "Peter Larson's personal website & portfolio. Software engineer and professional stack overflow searcher."
+url                      : "https://peterlarson.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "peterlarson/peterlarson.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/ceramic_coffee.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -100,26 +100,26 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Peter Larson"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Software Engineer at Flatiron Health applying Machine Learning to Healthcare"
+  location         : "New York, NY"
+  email            : "peter@peterlarson.xyz"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "facebook.com/peter.d.larson"
   foursquare       :
-  github           :
+  github           : "github.com/peterlarson"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "peter-larson" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -130,7 +130,6 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
 
 # Reading Files
 include:
@@ -199,7 +198,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -269,3 +268,30 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+      
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+    
