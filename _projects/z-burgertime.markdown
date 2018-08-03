@@ -1,5 +1,5 @@
 ---
-title: "Burgertime: An arcade game created in my first year of college" 
+title: "Recreating an arcade game in Java." 
 exerpt: "Recreation of the classic arcade game Burgertime." 
 header:
  image: /assets/images/level_1.JPG
@@ -23,6 +23,8 @@ gallery:
  - url: /assets/images/disappointed_message.JPG
    image_path: assets/images/disappointed_message.JPG
    image_alt: burgertime disappointed_message
+last_modified_at: 2017-08-01
+permalink: /burgertime/
 ---
 
 During my first year at Rose-Hulman me and some of my friends did a project for our programming class that still give me pride today. Our assignment was to recreate the arcade game <a href="http://en.wikipedia.org/wiki/BurgerTime">burgertime</a>. 

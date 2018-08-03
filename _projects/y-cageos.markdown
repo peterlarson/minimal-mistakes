@@ -1,9 +1,11 @@
 ---
-title: "cageOS: A nick cage themed operating system." 
+title: "Nick Cage themed operating system" 
 exerpt: "Nicolas Cage operating system written in C"  
 header:
  image: /assets/images/cageos_splash.png
  teaser: assets/images/cageos_splash.png
+last_modified_at: 2018-08-02
+permalink: /cageos-project/
 ---
 
 For my operating systems class sophmore year me and a team created an operating system. Ours was special because it was Nick Cage themed. 
