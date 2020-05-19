@@ -27,14 +27,14 @@ last_modified_at: 2017-08-01
 permalink: /burgertime/
 ---
 
-During my first year at Rose-Hulman me and some of my friends did a project for our programming class that still give me pride today. Our assignment was to recreate the arcade game <a href="http://en.wikipedia.org/wiki/BurgerTime">burgertime</a>. 
+During my first year at Rose-Hulman, some of my friends and I did a project for our programming class that still give me pride today. Our assignment was to recreate the arcade game <a href="http://en.wikipedia.org/wiki/BurgerTime">burgertime</a>. 
 
-The course was our introduction to Java, and so we completed the project using swing. Our game used minecraft images, dogs, and a cat with a chef's hat as the characters. 
-Some features we liked of were a level editor, a hard mode including new music and graphics, and a critical failure scree.  
+The course was our introduction to Java, and so we completed the project using Swing. Our game used Minecraft images, dogs, and a cat with a chef's hat as the characters. 
+Some features we liked were a level editor, a hard mode including new music and graphics, and a critical failure screen.  
 
 {% include gallery caption="Screenshots of gameplay" %}
 
-The feature we were most proud of in our implementation was a method of using a grid-based level and collision system, while having fluid motion for the player character and enemies. When our team was discussing how to represent the game we disagreed about weather we should use tiles. I was against it, but later we found that if we animated the character and enemies based on a location within a tile we could have smooth movement and use tiles for representing the level. This satisfied my concerns about the apperance of the game, while making conflicts, enemy routing, and loading/storing the game significantly easier. 
+The feature we were most proud of in our implementation was a method of using a grid-based level and collision system, while having fluid motion for the player character and enemies. When our team was discussing how to represent the game we disagreed about whether we should use tiles. I was against it, but later we found that if we animated the character and enemies based on a location within a tile we could have smooth movement and use tiles for representing the level. This satisfied my concerns about the appearance of the game, while making conflicts, enemy routing, and loading/storing the game significantly easier. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x4M4ogS4xBE?rel=0" frameborder="0" allowfullscreen></iframe>
 

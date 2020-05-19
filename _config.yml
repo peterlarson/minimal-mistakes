@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "peterlarson.xyz"
+title                    : "Peter Larson (.xyz)"
 title_separator          : "-"
 name                     : "Peter Larson"
 description              : "Peter Larson's personal website & portfolio. Software engineer and professional stack overflow searcher."
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Peter Larson"
   avatar           : /assets/images/prof_pic.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer at Flatiron Health applying Machine Learning to Healthcare"
+  bio              : "Software Engineer passionate about solving problems with data"
   location         : "New York, NY"
   email            : "peter@peterlarson.xyz"
   uri              :
